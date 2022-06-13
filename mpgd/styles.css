@@ -1,0 +1,192 @@
+body {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 1794px;
+  position: relative;
+
+  background: #ffffff;
+  border: 0.0625rem solid #000000;
+  left: 0rem;
+  top: 0rem;
+
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
+}
+
+header {
+  position: absolute;
+  width: 10.5rem;
+  height: 4.3125rem;
+  left: 2.9375rem;
+  top: 2rem;
+}
+
+body h1 {
+  position: absolute;
+  width: 55rem;
+  height: 22.625rem;
+  left: 20.75rem;
+  top: 6.125rem;
+}
+
+body p {
+  position: absolute;
+  width: 52.0625rem;
+  height: 2.5rem;
+  left: 20.0625rem;
+  top: 30rem;
+
+  font-family: "Gilroy-Medium";
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#maintext h1 {
+  position: absolute;
+  width: 26.5625rem;
+  height: 2.5rem;
+  left: 14.4375rem;
+  top: 42.3125rem;
+
+  font-family: "Gilroy-Bold";
+  font-size: 2.5rem;
+  line-height: 2.9375rem;
+
+  color: #ffffff;
+}
+
+h2 {
+  position: absolute;
+  width: 19.875rem;
+  height: 7.5rem;
+  left: 11.625rem;
+  top: 49.125rem;
+
+  font-family: "Gilroy-Bold";
+  font-size: 5rem;
+  line-height: 3.75rem;
+  /* or 75% */
+
+  letter-spacing: -0.08em;
+
+  color: #efc3e6;
+}
+
+#first_paragraph {
+  position: absolute;
+  width: 17.4375rem;
+  height: 7.125rem;
+  left: 14.9375rem;
+  top: 57.3125rem;
+
+  font-family: "Gilroy-Medium";
+  font-size: 1rem;
+  line-height: 1.1875rem;
+
+  color: #ffffff;
+}
+
+h3 {
+  position: absolute;
+  width: 21.8125rem;
+  height: 7.5rem;
+  left: 35rem;
+  top: 52.875rem;
+
+  font-family: "Gilroy-Bold";
+  font-size: 5rem;
+  line-height: 3.75rem;
+  /* or 75% */
+
+  letter-spacing: -0.08em;
+
+  color: #efc3e6;
+}
+
+#second_paragraph {
+  position: absolute;
+  width: 17.4375rem;
+  height: 7.125rem;
+  left: 38.3125rem;
+  top: 61.0625rem;
+
+  font-family: "Gilroy-Medium";
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+h4 {
+  position: absolute;
+  width: 21.1875rem;
+  height: 7.5rem;
+  left: 57.125rem;
+  top: 45.875rem;
+
+  font-family: "Gilroy-Bold";
+  font-size: 5rem;
+  line-height: 3.75rem;
+  /* or 75% */
+
+  letter-spacing: -0.08em;
+
+  color: #efc3e6;
+}
+
+#third_paragraph {
+  position: absolute;
+  width: 17.4375rem;
+  height: 7.125rem;
+  left: 60.4375rem;
+  top: 54.0625rem;
+
+  font-family: "Gilroy-Medium";
+  font-size: 1rem;
+  line-height: 1.1875rem;
+
+  color: #ffffff;
+}
+
+#what {
+  position: absolute;
+  width: 425px;
+  height: 100px;
+  left: 508px;
+  top: 1248px;
+
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 530px;
+  height: 81px;
+  left: 444px;
+  top: 1397px;
+
+  background: #efc3e6;
+  box-shadow: 0px 12px 15px rgba(5, 3, 84, 0.3);
+  border-radius: 16px;
+}
+
+footer a {
+  position: absolute;
+
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #0000af;
+}
