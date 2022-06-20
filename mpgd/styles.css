@@ -1,0 +1,190 @@
+body {
+  box-sizing: border-box;
+  background-image: url("/images/BackgroundBig.png");
+  background-position: center;
+  background-size : cover;
+  
+  
+  border: 0 solid #000000;
+}
+
+#logo {
+  text-align: center;
+}
+
+#main-text {
+  font-family: "Gilroy-Medium";
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: center;
+
+  color: #ffffff;
+  padding: 0 21.875rem;
+}
+
+main h1 {
+  font-family: 'Gilroy-Bold';
+font-size: 2.5rem;
+line-height: 2.9375rem;
+
+color: #FFFFFF;
+padding-left: 18.75rem;
+}
+
+#content {
+  display: flex;
+  padding: 0 18.75rem 0;
+}
+
+#plant {
+  
+}
+
+#plant h2 {
+  font-family: 'Gilroy-Bold';
+font-size: 5rem;
+line-height: 3.75rem;
+/* or 75% */
+
+letter-spacing: -0.08em;
+
+color: #EFC3E6;
+}
+
+#plant p {
+  font-family: 'Gilroy-Medium';
+font-size: 1rem;
+line-height: 1.1875rem;
+
+color: #FFFFFF;
+}
+
+#grow {
+  position: relative;
+  top: 5rem;
+}
+
+
+#grow h3 {
+  font-family: 'Gilroy-Bold';
+font-size: 5rem;
+line-height: 3.75rem;
+/* or 75% */
+
+letter-spacing: -0.08em;
+
+color: #EFC3E6;
+}
+
+#grow p {
+  font-family: 'Gilroy-Medium';
+font-size: 1rem;
+line-height: 1.1875rem;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+#flourish {
+  position: relative;
+bottom: 5rem;
+left: 1.25rem;
+}
+
+#flourish h4 {
+  font-family: 'Gilroy-Bold';
+font-size: 5rem;
+line-height: 3.75rem;
+/* or 75% */
+
+letter-spacing: -0.08em;
+
+color: #EFC3E6;
+}
+
+#flourish p {
+  font-family: 'Gilroy-Medium';
+font-size: 1rem;
+line-height: 1.1875rem;
+
+color: #FFFFFF;
+}
+
+#what {
+padding: 6.25rem 0;
+
+  font-family: 'Gilroy-Bold';
+font-size: 2.5rem;
+line-height: 2.9375rem;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+footer {
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.125rem;
+}
+
+a {
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
+  font-family: 'Gilroy-Bold';
+font-size: 1.875rem;
+line-height: 2.1875rem;
+text-align: center;
+background: #EFC3E6;
+box-shadow: 0rem 0.75rem 0.9375rem rgba(5, 3, 84, 0.3);
+border-radius: 1rem;
+padding: 1.25rem 3.125rem;
+
+color: #0000AF;
+}
+
+@media (max-width: 90rem) {
+#main-text {
+  padding: 0 12.5rem;
+}
+#content {
+  padding: 0 12.5rem;
+}
+#grow {
+  padding: 0 3.125rem;
+}
+
+}
+
+@media (max-width: 48rem) {
+#main-text {
+  padding: 0;
+  font-size: 12px;
+line-height: 14px;
+}
+header {
+  display: none;
+}
+#MPGD {
+  width: 100%;
+  padding-top: 50px;
+}
+main h1 {
+  padding: 0;
+  text-align: center;
+  font-size: 24px;
+line-height: 28px;
+}
+#content {
+  display: block;
+  padding: 0;
+}
+#plant h2 {
+  font-size: 60px;
+  line-height: 40px;
+  /* or 67% */
+  
+  letter-spacing: -0.08em;
+}
+}
