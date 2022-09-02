@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: ; /*color*/
+}
+
+form {
+    max-width: 25rem;
+    margin: var(--space-8) auto;
+    padding: var(--space-4);
+    background-color: ; /*color*/
+    border-radius: var(--boreder-radius-medium);
+    text-align: center;
+}
+
+form a {
+    color: var();  /*color*/
+}
+
+form a:hover,
+form a:active {
+    color: var();  /*color*/
+}
