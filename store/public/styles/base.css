@@ -3,9 +3,15 @@
 }
 
 html {
-    font-family: ; /*font*/
+    font-family: 'Lato', sans-serif;
 
-    --color-gray-500: ; /*colors*/
+    --color-gray: #E3DCC2;
+    --color-yellow: #E3DC95;
+    --color-moss: #A6A867;
+    --color-green: #51513D;
+    --color-green-lighter: #A6A867;
+    --color-black: #1B2021;
+    --color-error: #E63946;
 
     --space-1: 0.25rem;
     --space-2: 0.5rem;
@@ -21,8 +27,8 @@ html {
 }
 
 body {
-    background-color: var(--color-gray-500);
-    color: ; /*color*/
+    background-color: var(--color-gray);
+    color: var(--color-green); 
     margin: 0;
 }
 
@@ -41,21 +47,38 @@ ol {
 
 a {
     text-decoration: none;
-    color: ; /*color*/
+    color: var(--color-black); 
 }
 
 .btn {
     cursor: pointer;
     font: inherit;
     padding: var(--space-2) var(--space-6);
-    background-color: var(); /*color*/
-    color: ; /*color*/
-    border: 1px solid var(); /*color*/
+    background-color: var(--color-yellow); 
+    color: var(--color-green); 
+    border: 1px solid var(--color-moss); 
     border-radius: var(--boreder-radius-small);
 }
 
 .btn:hover,
 .btn:active {
-    background-color: var(); /*color*/
-    border-color: var(); /*color*/
+    background-color: var(--color-gray); 
+    border-color: var(--color-black); 
+}
+
+.alert {
+    border-radius: var(--boreder-radius-small);
+    background-color: var(--color-yellow);
+    color: var(--color-error);
+    padding: var(--space-4);
+}
+
+.alert h2 {
+    font-size: 1rem;
+    margin: var(--space-2) 0;
+    text-transform: uppercase;
+}
+
+.alert p {
+    margin: var(--space-2) 0;
 }

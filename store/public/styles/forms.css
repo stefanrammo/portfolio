@@ -1,10 +1,10 @@
 hr {
-    border-color: ;  /*color*/
+    border-color: var(--color-moss);
     margin: var(--space-4);
 }
 
 label {
-    color: ;  /*color*/
+    color: var(--color-green);
     display: block;
     margin-bottom: var(--space-2);
 }

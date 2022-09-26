@@ -1,22 +1,22 @@
 h1 {
     text-align: center;
-    color: ; /*color*/
+    color: var(--color-green);
 }
 
 form {
     max-width: 25rem;
     margin: var(--space-8) auto;
     padding: var(--space-4);
-    background-color: ; /*color*/
+    background-color: var(--color-gray);
     border-radius: var(--boreder-radius-medium);
     text-align: center;
 }
 
 form a {
-    color: var();  /*color*/
+    color: var(--color-green);
 }
 
 form a:hover,
 form a:active {
-    color: var();  /*color*/
+    color: var(--color-black);
 }
